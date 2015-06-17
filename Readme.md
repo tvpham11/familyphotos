@@ -1,6 +1,6 @@
 ## Welcome to My Repo
 
-> Family photo app - Learn more about my family! Assignment 20.
+> Going against the rules a bit. Trip journal using Backbone. Assignment 20.
 
 
 ## Usage
