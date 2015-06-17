@@ -1,7 +1,7 @@
 ## Welcome to My Repo
 
 > Going against the rules a bit. Trip journal using Backbone. Assignment 20.
-
+> Deployed app: http://development.tvp-tiy-francetrip2014.divshot.io/
 
 ## Usage
 
