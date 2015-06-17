@@ -1,0 +1,22 @@
+<h2>France December 2014</h2>
+
+<form id="addPhoto">
+  <input type="text" placeholder="Photo URL" id="photoURL">
+  <input type="text" placeholder="Photo Title" id="photoTitle">
+  <input type="text" placeholder="Photo Description" id="photoDesc">
+  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="mdi-content-send right"></i>
+  </button>
+</form>
+
+<ul>
+  {{#each photo}}
+    <li data-id="{{_id}}">
+      <figure>
+        <a class="responsive-img" href="#photo/{{_id}}"><img src="{{url}}" alt="france"></a>
+        <figcaption>{{title}}: {{description}}</figcaption>
+      </figure>
+    </li>
+  {{/each}}
+</ul>
+

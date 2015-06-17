@@ -1,0 +1,15 @@
+<div class="photo panel">
+
+  <h3>{{title}}</h3>
+  <p><a href="{{url}}">{{url}}</a></p>
+  <p>{{description}}</p>
+
+  {{#if visited}}
+    <p>This has been visited</p>
+  {{else}}
+    <p>This has NOT been visited</p>
+  {{/if}}
+
+  <button id="delete" class="alert" data-id="{{_id}}">Delete</button>
+
+</div>

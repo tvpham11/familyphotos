@@ -1,5 +1,15 @@
-console.log('This is cool!');
+;(function () {
 
-$('.container').html(template.example({
-  value: 'Hello, World!!'
-}));
+  'use strict';
+  var allPhotos = new app.Collections.Photos();
+
+  allPhotos.fetch().done(function(){
+
+    new app.Routers.MainRouter({
+      collection: allPhotos
+    });
+    Backbone.history.start();
+
+  });
+
+}());
